@@ -1,0 +1,275 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green176\blue80;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs32\lang9 Q 1\b0\fs22 .\b\fs32 HTML-CSS Login Registration page?\b0\fs22\par
+Ans.<!DOCTYPE html>\par
+<html>\par
+\par
+<head>\par
+    <title>Slide Navbar</title>\par
+    <link rel="stylesheet" type="text/css" href="slide navbar style.css">\par
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">\par
+\par
+    <style>\par
+\cf1         /* Internal CSS of index.html */\cf0\par
+        body \{\par
+            margin: 0;\par
+            padding: 0;\par
+            display: flex;\par
+            justify-content: center;\par
+            align-items: center;\par
+            min-height: 100vh;\par
+            font-family: 'Jost', sans-serif;\par
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #2020b4);\par
+        \}\par
+\par
+        .main \{\par
+            width: 350px;\par
+            height: 500px;\par
+            background: red;\par
+            overflow: hidden;\par
+            background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;\par
+            border-radius: 10px;\par
+            box-shadow: 5px 20px 50px #000;\par
+        \}\par
+\par
+        #chk \{\par
+            display: none;\par
+        \}\par
+\par
+        .signup \{\par
+            position: relative;\par
+            width: 100%;\par
+            height: 100%;\par
+        \}\par
+\par
+        label \{\par
+            color: #fff;\par
+            font-size: 2.3em;\par
+            justify-content: center;\par
+            display: flex;\par
+            margin: 60px;\par
+            font-weight: bold;\par
+            cursor: pointer;\par
+            transition: .5s ease-in-out;\par
+        \}\par
+\par
+        input \{\par
+            width: 60%;\par
+            height: 20px;\par
+            background: #e0dede;\par
+            justify-content: center;\par
+            display: flex;\par
+            margin: 20px auto;\par
+            padding: 10px;\par
+            border: none;\par
+            outline: none;\par
+            border-radius: 5px;\par
+        \}\par
+\par
+        button \{\par
+            width: 60%;\par
+            height: 40px;\par
+            margin: 10px auto;\par
+            justify-content: center;\par
+            display: block;\par
+            color: #fff;\par
+            background: #573b8a;\par
+            font-size: 1em;\par
+            font-weight: bold;\par
+            margin-top: 20px;\par
+            outline: none;\par
+            border: none;\par
+            border-radius: 5px;\par
+            transition: .2s ease-in;\par
+            cursor: pointer;\par
+        \}\par
+\par
+        button:hover \{\par
+            background: #81d769;\par
+        \}\par
+    </style>  \cf1 <!--Index Css End-->\cf0\par
+</head>\par
+\par
+<body>\cf1\par
+    <!-- Login Page Start -->\par
+\cf0     <div class="main">      \cf1 <!-- Main Div Start-->\par
+\cf0         <input type="checkbox" id="chk" aria-hidden="true">\par
+\par
+        <div class="signup"> <!-- Signup Div Start-->\par
+            <form>\par
+                <label for="chk" aria-hidden="true">Login Page</label>\par
+                <input type="text" name="txt" placeholder="User name" required="">\par
+                <input type="email" name="email" placeholder="Email" required="">\par
+                <input type="password" name="pswd" placeholder="Password" required="">\par
+                <button>Login</button>\par
+            </form>\par
+        </div>    \cf1 <!-- Singup Div Close-->\cf0\par
+\par
+    </div> \cf1 <!-- Main DIv Close-->\par
+    <!-- Login Page End-->\par
+\cf0 </body>\par
+\par
+</html>\par
+\b\fs32 Q 2\b0\fs22 .\b\f1\fs32 Calculate subtotal price of quantity in JavaScript?\par
+Ans:- \fs20 <!DOCTYPE html>\par
+<html lang="en">\par
+\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\par
+\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>Calculate Subtolal Price of javascript</title>\par
+</head>\par
+\cf1 <!-- index Html in Internal Css Start-->\cf0\par
+<style>\par
+    .container \{\par
+        display: flex;\par
+        justify-content: center;\par
+        align-items: center;\par
+    \}\par
+\par
+    Table \{\par
+        border: 2px solid black;\par
+    \}\par
+\par
+    th \{\par
+        border: 2px solid black;\par
+    \}\par
+\par
+    td \{\par
+        border: 2px solid black;\par
+\par
+    \}\par
+\par
+    .btn \{\par
+        height: 30px;\par
+        width: 120px;\par
+        border-radius: 10px;\par
+        margin-left: 120px;\par
+    \}\par
+</style> <!-- index Html in Internal Css End-->\par
+\par
+<body>\par
+    <div class="container">      \cf1 <!--Main container div start-->\par
+\cf0         <Table>     \cf1 <!-- Table Tag Start-->\cf0\par
+            <tr>\par
+                <th>Item name</th>\par
+                <th>Quantity</th>\par
+                <th>Price</th>\par
+                <th>Total</th>\par
+            </tr>\par
+            <tr>\par
+                <td>Apple</td>\par
+                <td><input type="text" id="Apple_input"></td>\par
+                <td id="Apple_price">200</td>\par
+                <td><span id="Apple"></span></td> <!--This Elemet in Output Value-->\par
+            </tr>\par
+            <tr>\par
+                <td>Banana</td>\par
+                <td><input type="text" id="Banana_input" onkeypress="Apple()"></td>\par
+                <td id="Banana_price">500</td>\par
+                <td><span id="Banana"></span></td> <!--This Elemet in Output Value-->\par
+            </tr>\par
+            <tr>\par
+                <td colspan="4"><input type="submit" onclick="Banana()" class="btn"></td>\par
+            </tr>\par
+        </Table>      \cf1 <!--Table Tag Close-->\cf0\par
+    </div>        \cf1 <!--Main container Close-->\cf0\par
+\par
+\cf1     <!-- Start Javascript-->\par
+\cf0     <script>\par
+        function Banana() \{   \cf1 //Start Funcation\cf0\par
+            let price_1 = document.getElementById('Apple_price').innerHTML     \cf1 //Get Value in Apple\cf0\par
+            let input_1 = document.getElementById('Apple_input').value     \cf1 // Hole Value in Apple\cf0\par
+            let span_1 = document.getElementById('Apple')     \cf1 // Print Value in Apple\cf0\par
+            let price_1_1 = parseInt(price_1)\par
+            let num_1 = parseInt(input_1)\par
+            let total = (num_1 * price_1_1)\par
+            span_1.innerHTML = total     \cf1 // Total Value Print in span tag\cf0\par
+\par
+            let price_2 = document.getElementById('Banana_price').innerHTML    \cf1 //Get Value in Banana\cf0\par
+            let input_2 = document.getElementById('Banana_input').value     \cf1  // Hold Value in Banana\cf0\par
+            let span_2 = document.getElementById('Banana')          \cf1 // Print value in Banana\cf0\par
+            let price_2_2 = parseInt(price_2)\par
+            let num_2 = parseInt(input_2)\par
+            let total2 = (num_2 * price_2_2)\par
+            span_2.innerHTML = total2       \cf1 // Total Value Print in span tag\cf0\par
+        \}\par
+    </script>\par
+\cf1     <!-- Close Javascript -->\par
+\cf0 </body>\par
+\par
+</html>\b0\f0\par
+\b\fs32 Q 3\b0\fs22 .\b\fs32 What is JavaScript Output method? \par
+\b0\fs22         Ans :-  JavaScript has multiple ways to "display" data:-\par
+         (I) Using innerHTML to write into an HTML element.\par
+         (II) Using document to write into the HTML output.write().\par
+         (III) Using window.alert() to enter text into an alert box.\par
+         (IV) Using console.log() to write to the browser console.\par
+\par
+\b\fs32 Q 4\b0\fs22 .\b\fs32 How to used JavaScript Output method?\par
+\b0\fs22 Ans:-Ans:- 1. innerHTML: This allows access to an element. It describes what is in the HTML.\par
+ 2. document.write(): This function is utilised for testing.\par
+3. The window.alert() function shows the content in an alert box.\par
+4. Console.log(): This function is employed for debugging.\par
+5. window.prompt() : It enables user input.\par
+\b\fs32 Q 5\b0\fs22 .\b\fs32 How to used JavaScript Events to do all examples?\par
+\b0\fs22 Ans:- JavaScript can be used to work with events in a variety of ways:\par
+            (i)HTML event properties can directly run JavaScript code. \par
+          (ii) JavaScript functions can be called by HTML event attributes.\par
+         (iii) You can provide HTML components your own custom event handlers.\par
+(i)\f1\fs28 Onclick: When a user clicks on a button or inputs it occurs.\par
+Exp:-\fs20 <!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>onClick Event</title>\par
+</head>\par
+<body>\par
+    <h2>The onclick Event</h2>\par
+    <button onclick="myFunction()">Click me</button>\par
+   <p id="demo"></p>   \cf1 <!-- This Element in Value Hold-->\par
+\cf0     \cf1 <!-- Start Script Tag -->\par
+\cf0     <script>\par
+        \cf1 // Start onClick Funcation Start\cf0\par
+        function myFunction() \{\par
+            document.getElementById("demo").innerHTML = "Hello World";\par
+        \}\par
+\cf1 // End onClick Funcation End\par
+\cf0     </script>\par
+    \cf1 <!-- Close Script Tag-->\cf0\par
+</body>\par
+</html>\par
+(ii)\f0 Ans:-(i)\f1 Ondblclick: Double-click this paragraph to trigger a function..\par
+Exp:-<!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>onClick Event</title>\par
+</head>\par
+<body>\par
+    <h2>The onclick Event</h2>\par
+    <button ondblclick="myFunction()">Click me</button>\par
+   <p id="demo"></p>   \cf1 <!-- This Element in Value Hold-->\par
+\cf0     \cf1 <!-- Start Script Tag -->\par
+\cf0     <script>\par
+        \cf1 // Start ondblClick Funcation Start\cf0\par
+        function myFunction() \{\par
+           document.getElementById("demo").innerHTML += "Hello World ";\par
+        \}\par
+\cf1 // End ondblClick Funcation End\par
+\cf0     </script>\par
+    \cf1 <!-- Close Script Tag-->\cf0\par
+</body>\par
+</html>\par
+\b\f0\fs32\par
+\par
+\b0\fs22\par
+}
+ 
